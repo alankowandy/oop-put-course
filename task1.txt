@@ -1,0 +1,34 @@
+final class Owner {
+    int HamsterCount;
+    String OwnerName;  
+}
+
+final class Hamster {
+    int HamsterIndex;
+    String HamsterName;
+    String HamsterColour;
+    Owner HamsterOwner;
+    
+    void count(){
+        System.out.print("This hamster has number: " +HamsterIndex);
+        System.out.print("Owner of this hamster is: " + HamsterOwner.OwnerName);
+    }
+}
+
+public class task1 {
+
+    public static void main(String[] args) {
+        
+        Owner newHamsterOwner = new Owner();
+        newHamsterOwner.HamsterCount = 7;
+        newHamsterOwner.OwnerName = "Alan";
+        Hamster myNewHamster = new Hamster();
+        myNewHamster.HamsterIndex = 4;
+        myNewHamster.HamsterName = "Borgo";
+        myNewHamster.HamsterColour = "grey";
+        myNewHamster.HamsterOwner = newHamsterOwner;
+        
+        myNewHamster.count();
+    }
+
+}
