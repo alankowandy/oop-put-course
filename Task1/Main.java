@@ -11,6 +11,7 @@ public class Main {
         owner.name = "Mr. X";
         owner.age = 35;
 
-        System.out.println("Owner's name is: " + owner.name + " and the car they have is: " + car.make + " " + car.model);
+        System.out.println("Owner's name is " + owner.name + " and the car they have is " + car.make + " " + car.model);
+        System.out.println("Owner's age is " + owner.age + " and the car they have is from " + car.year);
     }
 }
