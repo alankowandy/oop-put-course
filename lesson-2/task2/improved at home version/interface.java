@@ -19,14 +19,19 @@ class Car implements Vehicle {
     }
     @Override
     public Vehicle accelerate(int factor) {
+        System.out.println("Accelerating the car by " + factor);
         this.current_speed += factor;
-        System.out.println("Accelerating the car by " + this.current_speed);
+        System.out.println("Current speed of the car: " + this.current_speed);
         return new Car(this.current_speed, distance, fuel_level);
     }
 
     public Vehicle brake(int factor) {
-        System.out.println("Braking the car by " + this.current_speed);
+        System.out.println("Braking the car by " + factor);
         this.current_speed -= factor;
+        System.out.println("Current speed of the car: " + this.current_speed);
+        if (this.current_speed < 0) {
+            System.out.println("The car is reversing!");
+        }
         this.distance += factor;
         this.fuel_level -= factor;
         return new Car(this.current_speed, this.distance, this.fuel_level);
@@ -59,14 +64,19 @@ class Truck implements Vehicle {
     }
     @Override
     public Vehicle accelerate(int factor) {
+        System.out.println("Accelerating the truck by " + factor);
         this.current_speed += factor;
-        System.out.println("Accelerating the truck by " + this.current_speed);
+        System.out.println("Current speed of the truck: " + this.current_speed);
         return new Truck(this.current_speed, this.distance, fuel_level);
     }
 
     public Vehicle brake(int factor) {
-        System.out.println("Braking the truck by " + this.current_speed);
+        System.out.println("Braking the truck by " + factor);
         this.current_speed -= factor;
+        System.out.println("Current speed of the truck: " + this.current_speed);
+        if (this.current_speed < 0) {
+            System.out.println("The truck is reversing!");
+        }
         this.distance += factor;
         this.fuel_level -= factor;
         return new Truck(this.current_speed, this.distance, this.fuel_level);
