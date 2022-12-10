@@ -24,7 +24,7 @@ class Logarithm implements Number {
   
 }
 
-public class task2_2{
+public class task2_2 {
 
     public static void main(String[] args) {
         
