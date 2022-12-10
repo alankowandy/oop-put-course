@@ -32,7 +32,7 @@ public class task2_2 {
         double result;
         try {
             result = newLogarithm.doubleValue();
-        } catch(Exception err){
+        } catch (Exception err) {
             System.out.println("Error: " + err);
             return;
         }
