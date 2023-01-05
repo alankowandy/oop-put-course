@@ -4,18 +4,14 @@ public class title_screen {
     
     public void first_screen() {
         System.out.println("\n------------------------------------------------------------------\n");
-        System.out.print("Please enter your name: ");
-        game.player_name = game.choiceScanner.next();
-        System.out.println("Welcome to the Adventure " + game.player_name + "!");
-        game.firstpromptEnterKey();
+        System.out.print("Ok, before we start let's get some things straight kiddo. ");
+        System.out.println("Please state your name.");
+        System.out.print("> ");
+        game.player_name = game.plrinput.next();
         System.out.println("\n------------------------------------------------------------------\n");
-        System.out.println("You find yourself at the edge of the cliff, your vehicle wrecked on the tree just a few meters away, and a police slowly surrounding you.");
-        game.promptEnterKey();
-        System.out.println("You think to yourself: \"How did it come to this?\", \"Where was my mistake?\".");
-        game.promptEnterKey();
-        System.out.println("Adrenaline is pumping through your veins, \"...like an animal in the cage\", \"I have to find a solution\", and so you start going through everything that happened, hoping that you\'ll find something that would help you.");
-        game.promptEnterKey();
-        System.out.println("\"It all started at that stupid carwash...\" ");
+        System.out.println("Welcome " + game.player_name + ".");
+        System.out.println("Get ready for the adventure.");
+        System.out.print("\nPress \"ENTER\" to continue when you see the arrow: ");
         game.promptEnterKey();
     }
 }
