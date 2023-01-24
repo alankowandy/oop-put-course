@@ -1,9 +1,9 @@
 interface Forecast {
-    int Temperature(int temp);
+    int temperature(int temp);
 
-    final class FakeClass implements Forecast {
+    final class fakeClass implements Forecast {
         @Override
-        public int Temperature(int temp) {
+        public int temperature(int temp) {
             return 4;
         }
     }
@@ -16,7 +16,7 @@ class Weather {
     }
 
     public int todaysTemperature() {
-        return (this.temperature.Temperature(1));
+        return (this.temperature.temperature(1));
     }
 
     String todaysWeather() {
@@ -27,7 +27,7 @@ class Weather {
 public class task1 {
 
 	public static void main(String[] args) {
-		Forecast forecast = new Forecast.FakeClass();
+		Forecast forecast = new Forecast.fakeClass();
         Weather today = new Weather(forecast);
         String weather = today.todaysWeather();
         System.out.println(weather);
