@@ -53,7 +53,7 @@ public final class CarDrive{
         String nextWord;
         System.out.println("\n------------------------------------------------------------------\n");
         details.location("On the road");
-        gameMechanics.slowPrint(30,GameMechanics.choiceVariable + "\n");
+        //gameMechanics.slowPrint(30,GameMechanics.choiceVariable + "\n");
         gameMechanics.slowPrint(30,"\nGirlfriend: Ok, listen. The game's name is Shiritori.\n");
         gameMechanics.promptEnterKey();
         gameMechanics.slowPrint(30,"Me: That's an interesting name for sure.\n");
@@ -304,7 +304,7 @@ public final class CarDrive{
                     gameMechanics.slowPrint(10,"\nGirlfriend: Emergency, emergency, emergency, emergency, emergency, emergency, emergency, emergency, emergency, emergency, emergency, emergency, emergency, emergency,\n");
                     gameMechanics.slowPrint(50,"\nMe: What...\n");
                     gameMechanics.addDoubleChoiceVariable();
-                    gameMechanics.slowPrint(30,GameMechanics.choiceVariable + "\n");
+                    //gameMechanics.slowPrint(30,GameMechanics.choiceVariable + "\n");
                     gameMechanics.promptEnterKey();
                     gameMechanics.slowPrint(20,"Girlfriend: Oh my God, watch out!!!\n");
                     gameMechanics.promptEnterKey();

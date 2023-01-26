@@ -178,7 +178,7 @@ public final class Carwash {
                 gameMechanics.slowPrint(30,"Me: So what's the game you wanted to play?\n");
                 gameMechanics.promptEnterKey();
                 gameMechanics.slowPrint(30,"Girlfriend: I'll tell you on the way.\n");
-                gameMechanics.slowPrint(30,GameMechanics.choiceVariable + "\n");
+                //gameMechanics.slowPrint(30,GameMechanics.choiceVariable + "\n");
                 gameMechanics.promptEnterKey();
                 break;
             case 2:
@@ -195,7 +195,7 @@ public final class Carwash {
                     System.out.println("Error: " + e);
                     System.exit(0);
                 }
-                gameMechanics.slowPrint(30,GameMechanics.choiceVariable + "\n");
+                //gameMechanics.slowPrint(30,GameMechanics.choiceVariable + "\n");
                 gameMechanics.promptEnterKey();
                 break;
             default:
