@@ -95,10 +95,13 @@ public class FakeClass {
 		rps.RPS(1);
 		rps.RPS(2);
 		rps.RPS(3);
-        GameClasses.Branches.Epilogue.epilogueInit();
-        GameClasses.Branches.Apartment.apartmentInit();
-        GameClasses.Branches.CarDrive.CarDriveInit();
+		GameClasses.Branches.FirstUnknown.firstUnknownInit();
         GameClasses.Branches.Carwash.carwashInit();
+		GameClasses.Branches.CarDrive.CarDriveInit();
+		GameClasses.Branches.Epilogue.epilogueInit();
+        GameClasses.Branches.Apartment.apartmentInit();
+        
+        
 
     }
 }
