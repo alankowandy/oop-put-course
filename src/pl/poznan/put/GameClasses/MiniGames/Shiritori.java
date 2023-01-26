@@ -51,7 +51,6 @@ public final class Shiritori {
 	public void restart() {
 		this.wordsSaid = new String[0];
 		this.gameOver = false ;
-		System.out.println("Game restarted.");
 	}
 		
 	public void printWords() {
