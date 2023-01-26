@@ -133,7 +133,7 @@ public final class Epilogue {
                 gameMechanics.promptEnterKey();
                 System.out.println("\n------------------------------------------------------------------\n");
                 details.location("Hospital");
-                gameMechanics.slowPrint(40,"I slowly regain consciousness.\n");
+                gameMechanics.slowPrint(40,"\nI slowly regain consciousness.\n");
                 gameMechanics.promptEnterKey();
                 gameMechanics.slowPrint(30,"Doctor: Sir, can you hear me?\n");
                 gameMechanics.promptEnterKey();
@@ -430,7 +430,7 @@ public final class Epilogue {
             gameMechanics.slowPrint(30,"Me: Yeah, I'm going!\n");
             gameMechanics.promptEnterKey();
         }
-        gameMechanics.slowPrint(50,"Congratulations " + gameMechanics.playerName + "!\n");
+        gameMechanics.slowPrint(50,"Congratulations " + gameMechanics.displayPlayerName() + "!\n");
         gameMechanics.promptEnterKey();
         gameMechanics.slowPrint(50,"You have finished a game!\n");
         gameMechanics.promptEnterKey();

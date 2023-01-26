@@ -15,8 +15,9 @@ public final class StartingScreen {
         System.out.println("\n------------------------------------------------------------------\n");
         gameMechanics.slowPrint(30,"\nPlease state your name.\n");
         System.out.print("> ");
-        gameMechanics.playerName = gameMechanics.playerInput.next();
-        gameMechanics.slowPrint(35,"\nWelcome " + gameMechanics.playerName + ".\n");
+        String playerName = gameMechanics.playerInput.next();
+        gameMechanics.takePlayerName(playerName);
+        gameMechanics.slowPrint(35,"\nWelcome " + gameMechanics.displayPlayerName() + ".\n");
         gameMechanics.slowPrint(30,"\nLet's get some things straight.\n");
         gameMechanics.slowPrint(30,"\n->\n");
         gameMechanics.slowPrint(30,"\nSee that arrow above?\n");

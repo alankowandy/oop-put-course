@@ -28,6 +28,14 @@ public final class GameMechanics {
             Thread.sleep(time);
     }
 
+    public void takePlayerName(String name) {
+        playerName = name; 
+    }
+
+    public String displayPlayerName() {
+        return playerName;
+    }
+    
     public int addChoiceVariable() {
         choiceVariable++;
         return 0;

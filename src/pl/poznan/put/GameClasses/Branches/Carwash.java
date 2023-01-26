@@ -19,7 +19,7 @@ public final class Carwash {
         GameMechanics gameMechanics = new GameMechanics();
         System.out.println("\n------------------------------------------------------------------\n");
         details.location("Carwash");
-        gameMechanics.slowPrint(30,"\nDamn, I'm missing some change again. I should have known better this time and remember to take more from the apartment\n");
+        gameMechanics.slowPrint(30,"\nDamn, I'm missing some change again. I should have known better this time and remember to take more from the apartment.\n");
         gameMechanics.promptEnterKey();
         gameMechanics.slowPrint(30,"There should be a machine to exchange the money somewhere...\n");
         gameMechanics.promptEnterKey();
@@ -84,7 +84,7 @@ public final class Carwash {
                             gameMechanics.promptEnterKey();
                             gameMechanics.slowPrint(30,"Guy: Piss off! I don't have time for this.\n");
                             gameMechanics.promptEnterKey();
-                            gameMechanics.slowPrint(30,"I decide to just walk away and leave him be before he gets aggresive.\n");
+                            gameMechanics.slowPrint(30,"I decide to just walk away and leave him be before he gets more aggresive.\n");
                             gameMechanics.addChoiceVariable();
                             gameMechanics.promptEnterKey();
                             break;
@@ -106,10 +106,10 @@ public final class Carwash {
                     gameMechanics.promptEnterKey();
                     gameMechanics.slowPrint(30,"Guy: Piss off! I don't have time for this.\n");
                     gameMechanics.promptEnterKey();
-                    gameMechanics.slowPrint(30,"I decide to just walk away and leave him be before he gets aggresive.\n");
+                    gameMechanics.slowPrint(30,"I decide to just walk away and leave him be before he gets more aggresive.\n");
                     gameMechanics.promptEnterKey();
                     gameMechanics.addChoiceVariable();
-                    gameMechanics.slowPrint(30,"While I walk back to the car I notice the money exchange machine and that it says \"Out of order\"\n");
+                    gameMechanics.slowPrint(30,"While I walk back to the car I notice the money exchange machine and that it says \"Out of order\".\n");
                     gameMechanics.slowPrint(40,"\nOf course...\n");
                     gameMechanics.promptEnterKey();
                     break;
@@ -169,11 +169,11 @@ public final class Carwash {
                 gameMechanics.promptEnterKey();
                 gameMechanics.slowPrint(30,"I quickly clean the car, not that I had an oppertunity to clean it any longer...\n");
                 gameMechanics.promptEnterKey();
-                gameMechanics.slowPrint(30,"After I finish washing the car I sat in the car.\n");
+                gameMechanics.slowPrint(30,"After I finish washing the car I sat inside.\n");
                 gameMechanics.promptEnterKey();
                 gameMechanics.slowPrint(30,"Me: Ready to go?\n");
                 gameMechanics.promptEnterKey();
-                gameMechanics.slowPrint(50,"Girlfriend: Duh, let's go\n");
+                gameMechanics.slowPrint(50,"Girlfriend: Duh, let's go.\n");
                 gameMechanics.promptEnterKey();
                 gameMechanics.slowPrint(30,"Me: So what's the game you wanted to play?\n");
                 gameMechanics.promptEnterKey();
