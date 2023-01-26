@@ -25,7 +25,7 @@ public final class Epilogue {
         String nextWord;
         System.out.println("\n------------------------------------------------------------------\n");
         details.location("On the road");
-        if (gameMechanics.giveChoiceVariable() > 7) {
+        if (gameMechanics.currentChoiceVariable() > 7) {
             gameMechanics.slowPrint(30,"\nMe: You know you didn't have to come with me.\n");
             gameMechanics.promptEnterKey();
             gameMechanics.slowPrint(30,"Me: I know you don't like to leave the house.\n");

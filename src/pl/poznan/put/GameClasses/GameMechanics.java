@@ -28,7 +28,7 @@ public final class GameMechanics {
             Thread.sleep(time);
     }
 
-    public int giveChoiceVariable() {
+    public int currentChoiceVariable() {
         return choiceVariable;
     }
 

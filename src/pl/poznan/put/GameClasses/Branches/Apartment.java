@@ -27,7 +27,7 @@ public final class Apartment {
         gameMechanics.promptEnterKey();
         gameMechanics.slowPrint(30,"Still can't believe she didn't even flinch.\n");
         gameMechanics.promptEnterKey();
-        if (gameMechanics.giveChoiceVariable() > 7) {
+        if (gameMechanics.currentChoiceVariable() > 7) {
             gameMechanics.slowPrint(30,"She's been really weird, there's something wrong with her...\n");
             gameMechanics.promptEnterKey();
         } else {
@@ -61,7 +61,7 @@ public final class Apartment {
         }
         switch (gameMechanics.choice) {
             case 1:
-                if (gameMechanics.giveChoiceVariable() > 7) {
+                if (gameMechanics.currentChoiceVariable() > 7) {
                     gameMechanics.slowPrint(30,"\nSomething tells me I really should take my meds...\n");
                     gameMechanics.promptEnterKey();
                     gameMechanics.slowPrint(30,"Me: I don't know... The meds are important\n");
