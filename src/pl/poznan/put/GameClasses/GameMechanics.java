@@ -7,7 +7,7 @@ public final class GameMechanics {
 	Scanner enter = new Scanner(System.in);
     public String playerName;
     public int choice;
-    public static int choiceVariable = 6;
+    public int choiceVariable = 6;
     
     public void promptEnterKey() {
         System.out.print("->");
@@ -26,6 +26,10 @@ public final class GameMechanics {
 
     public void pause(int time) throws InterruptedException {
             Thread.sleep(time);
+    }
+
+    public int giveChoiceVariable() {
+        return choiceVariable;
     }
 
     public void takePlayerName(String name) {
