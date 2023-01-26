@@ -31,7 +31,7 @@ final class Shiritori {
 				char lastChar = lastWord.charAt(lastWord.length() - 1);
 				char firstChar = newWord.charAt(0);
 				
-				if (lastChar == firstChar && gameOver != false && Arrays.asList(wordsSaid).contains(newWord) == false) {
+				if (lastChar == firstChar && Arrays.asList(wordsSaid).contains(newWord) == false) {
 						wordsSaid = newWord(newWord);
 					} else if(lastChar != firstChar || Arrays.asList(wordsSaid).contains(newWord)) {
 						gameOver = true;
