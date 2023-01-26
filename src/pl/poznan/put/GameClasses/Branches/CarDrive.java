@@ -326,6 +326,7 @@ public final class CarDrive{
             default:
                 break;
         }
+        shiritori.restart();
         GameMechanics.slowPrint(10,"All of sudden I can see truck coming right towards me.\n");
         GameMechanics.promptEnterKey();
         GameMechanics.slowPrint(10,"How...\n");

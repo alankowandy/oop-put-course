@@ -7,7 +7,7 @@ public final class Shiritori {
 	public boolean gameOver = false;
 	private boolean quitGame = false;
 	
-	boolean quit () {
+	boolean quit() {
 		quitGame = true;
 		return quitGame;
 	}
